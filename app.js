@@ -8,6 +8,6 @@ const port = 3000;
 app.set('views', path.join(__dirname, 'views/pages/'));
 app.set('view engine', 'ejs');
 // Home Route
-app.get('/', (req,res) => res.render   ('index'));
+app.get('/', (req, res) => res.render ('index'));
 // Start Server
 app.listen(port, () => console.log(`App listening on port ${port}`));
