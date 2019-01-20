@@ -1,0 +1,25 @@
+{
+  "name": "sticky",
+  "version": "1.0.0",
+  "description": "CRUD app with login",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siatt/sticky.git"
+  },
+  "author": "Lucas Sjöqvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Siatt/sticky/issues"
+  },
+  "homepage": "https://github.com/Siatt/sticky#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
